@@ -1,0 +1,6 @@
+outs:
+- md5: 2e4a38747b9783ff8871697b6943aaca.dir
+  size: 503783378
+  nfiles: 975
+  hash: md5
+  path: data
