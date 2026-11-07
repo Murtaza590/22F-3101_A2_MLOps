@@ -1,0 +1,4 @@
+[core]
+    remote = origin
+['remote "origin"']
+    url = https://dagshub.com/Murtaza590/22F-3101_A2_MLOps.dvc
