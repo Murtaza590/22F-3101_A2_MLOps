@@ -1,0 +1,6 @@
+{
+  "run": "mnet_finetune",
+  "run_id": "2c13fc0028544ead80c39e7a6b9eba0e",
+  "threshold": 0.36000000000000004,
+  "model_version": "VisionGuard v2 (champion)"
+}

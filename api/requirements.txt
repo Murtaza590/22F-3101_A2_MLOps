@@ -1,0 +1,6 @@
+ai-edge-litert
+flask
+gunicorn
+pillow
+numpy
+opencv-python-headless
