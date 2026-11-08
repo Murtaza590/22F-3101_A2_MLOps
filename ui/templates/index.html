@@ -1,0 +1,6 @@
+{% extends "base.html" %}{% block body %}
+<h2>Is this image AI-generated or real?</h2>
+<form action="/predict" method="post" enctype="multipart/form-data">
+<input type="file" name="file" accept=".png,.jpg,.jpeg,.webp"> <button>Check image</button></form>
+<p class="note">PNG, JPG or WEBP, max 5 MB. Images are processed in memory and never stored.</p>
+{% endblock %}

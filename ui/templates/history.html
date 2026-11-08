@@ -1,0 +1,8 @@
+{% extends "base.html" %}{% block body %}
+<h2>Prediction history</h2>
+<table><tr><th>When</th><th>File</th><th>Decision</th><th>Confidence</th><th>Model</th></tr>
+{% for x in rows %}<tr><td>{{ x.ts }}</td><td>{{ x.filename }}</td>
+<td class="{{ 'ai' if x.label=='AI-generated' else 'real' }}">{{ x.label }}</td>
+<td>{{ (x.confidence*100)|round(1) }}%</td><td>{{ x.model_version }}</td></tr>
+{% else %}<tr><td colspan="5">No predictions yet.</td></tr>{% endfor %}</table>
+{% endblock %}
